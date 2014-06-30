@@ -29,7 +29,7 @@ public class GameOfLife {
 
     public GameOfLife() {
         generation = new Generation();
-        JFrame frame = new JFrame("HelloWorldSwing");
+        JFrame frame = new JFrame("Game Of Life");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JPanel rootPanel = new JPanel(new GridBagLayout());
